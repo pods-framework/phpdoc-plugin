@@ -14,8 +14,8 @@
 
 namespace Pods\phpdocplugin;
 
-define( 'PHPDOCPLUGIN_FILE', __FILE__ );
-define( 'PHPDOCPLUGIN_VERSION', '0.0.1' );
+define( 'PHPDOC_PLUGIN_FILE', __FILE__ );
+define( 'PHPDOC_PLUGIN_VERSION', '0.0.1' );
 
 // Support for site-level autoloading.
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
