@@ -1,13 +1,34 @@
 {
-    "name": "pods-framework/phpdoc-plugin",
-    "description": "A WordPress plugin for parsing documentation.",
-    "type": "wordpress-plugin",
-    "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "Ronald Huereca",
-            "email": "ronald@mediaron.com"
-        }
-    ],
-    "require": {}
+  "name": "pods-framework/phpdocplugin",
+  "description": "A WordPress plugin for parsing documentation.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Ronald Huereca",
+      "email": "ronald@mediaron.com",
+      "homepage": "https://mediaron.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Scott Kingsley Clark",
+      "email": "scott@pods.io",
+      "homepage": "https://www.scottkclark.com/",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pods\\phpdocplugin\\": "php/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pods\\phpdocplugin\\": "tests/php/"
+    }
+  }
 }
