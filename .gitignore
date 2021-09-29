@@ -51,3 +51,4 @@ phpcs-report-*.txt
 
 # Allowed vendor files
 !vendor/freemius
+.vscode/launch.json

@@ -32,6 +32,9 @@ class Bootstrap {
 	public function plugins_loaded() {
 		$plugin = new Plugin();
 
+		// Run any actions for theme init.
+		add_action( 'after_setup_theme', array( $plugin, 'after_setup_theme' ) );
+
 		// Init the plugin.
 		add_action( 'init', array( $plugin, 'init' ) );
 	}
