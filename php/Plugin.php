@@ -191,7 +191,7 @@ class Plugin {
 	 * @return string The new path.
 	 */
 	public static function get_plugin_dir( $path = '' ) {
-		$dir = rtrim( plugin_dir_path( PHPDOCPLUGIN_FILE ), '/' );
+		$dir = rtrim( plugin_dir_path( PHPDOC_PLUGIN_FILE ), '/' );
 		if ( ! empty( $path ) && is_string( $path ) ) {
 			$dir .= '/' . ltrim( $path, '/' );
 		}
