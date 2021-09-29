@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pods\\phpdocplugin\\": "php/"
+      "Pods\\phpDoc_Plugin\\": "php/"
     }
   },
   "autoload-dev": {
