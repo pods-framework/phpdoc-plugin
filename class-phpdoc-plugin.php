@@ -9,7 +9,7 @@
  * Requires at least: 5.8
  * Text Domain: phpdoc-plugin
  *
- * @package phpdocplugin
+ * @package Pods\phpDoc_Plugin
  */
 
 namespace Pods\phpdocplugin;
