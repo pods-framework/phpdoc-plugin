@@ -30,7 +30,7 @@ class Plugin {
 	 * Setup the plugin.
 	 */
 	public function __construct() {
-		$this->file = PHPDOCPLUGIN_FILE;
+		$this->file = PHPDOC_PLUGIN_FILE;
 		$this->dir  = dirname( PHPDOCPLUGIN_FILE );
 	}
 
