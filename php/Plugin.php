@@ -75,31 +75,6 @@ class Plugin {
 	}
 
 	/**
-	 * Get plugin meta data.
-	 *
-	 * @param  string $field Optional field key.
-	 *
-	 * @return array|string|null
-	 */
-	public function meta( $field = null ) {
-		static $meta;
-
-		if ( ! isset( $meta ) ) {
-			$meta = get_file_data( $this->file, array(), $field );
-		}
-
-		if ( isset( $field ) ) {
-			if ( isset( $meta[ $field ] ) ) {
-				return $meta[ $field ];
-			}
-
-			return null;
-		}
-
-		return $meta;
-	}
-
-	/**
 	 * Return the plugin slug.
 	 *
 	 * @return string plugin slug.
