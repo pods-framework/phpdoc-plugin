@@ -1,5 +1,5 @@
 {
-  "name": "pods-framework/phpdocplugin",
+  "name": "pods-framework/phpdoc-plugin",
   "description": "A WordPress plugin for parsing documentation.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
