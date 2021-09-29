@@ -206,7 +206,7 @@ class Plugin {
 	 * @return string URL to to the file.
 	 */
 	public static function get_plugin_url( $path = '' ) {
-		$dir = rtrim( plugin_dir_url( PHPDOCPLUGIN_FILE ), '/' );
+		$dir = rtrim( plugin_dir_url( PHPDOC_PLUGIN_FILE ), '/' );
 		if ( ! empty( $path ) && is_string( $path ) ) {
 			$dir .= '/' . ltrim( $path, '/' );
 		}
