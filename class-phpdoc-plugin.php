@@ -12,7 +12,7 @@
  * @package Pods\phpDoc_Plugin
  */
 
-namespace Pods\phpdocplugin;
+namespace Pods\phpDoc_Plugin;
 
 define( 'PHPDOC_PLUGIN_FILE', __FILE__ );
 define( 'PHPDOC_PLUGIN_VERSION', '0.0.1' );
