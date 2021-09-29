@@ -114,7 +114,7 @@ class Plugin {
 	 * @return string plugin slug.
 	 */
 	public static function get_plugin_slug() {
-		return dirname( plugin_basename( PHPDOCPLUGIN_FILE ) );
+		return dirname( plugin_basename( PHPDOC_PLUGIN_FILE ) );
 	}
 
 	/**
