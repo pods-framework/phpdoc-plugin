@@ -62,15 +62,6 @@ class Plugin {
 	}
 
 	/**
-	 * Return the current version of the plugin.
-	 *
-	 * @return mixed
-	 */
-	public function version() {
-		return $this->meta( 'Version' );
-	}
-
-	/**
 	 * Sync the plugin version with the asset version.
 	 *
 	 * @return string
@@ -133,54 +124,6 @@ class Plugin {
 	 */
 	public static function get_plugin_version() {
 		return PHPDOC_PLUGIN_VERSION;
-	}
-
-	/**
-	 * Returns appropriate html for KSES.
-	 *
-	 * @param bool $svg Whether to add SVG data to KSES.
-	 */
-	public static function get_kses_allowed_html( $svg = true ) {
-		$allowed_tags = wp_kses_allowed_html();
-
-		$allowed_tags['nav']        = array(
-			'class' => array(),
-		);
-		$allowed_tags['a']['class'] = array();
-
-		if ( ! $svg ) {
-			return $allowed_tags;
-		}
-		$allowed_tags['svg'] = array(
-			'xmlns'       => array(),
-			'fill'        => array(),
-			'viewbox'     => array(),
-			'role'        => array(),
-			'aria-hidden' => array(),
-			'focusable'   => array(),
-			'class'       => array(),
-		);
-
-		$allowed_tags['path'] = array(
-			'd'       => array(),
-			'fill'    => array(),
-			'opacity' => array(),
-		);
-
-		$allowed_tags['g'] = array();
-
-		$allowed_tags['use'] = array(
-			'xlink:href' => array(),
-		);
-
-		$allowed_tags['symbol'] = array(
-			'aria-hidden' => array(),
-			'viewBox'     => array(),
-			'id'          => array(),
-			'xmls'        => array(),
-		);
-
-		return $allowed_tags;
 	}
 
 	/**
