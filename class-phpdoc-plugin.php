@@ -37,6 +37,6 @@ class Bootstrap {
 	}
 }
 
-$phpdoc_plugin = new PHPDoc_Plugin();
+$phpdoc_plugin = new Bootstrap();
 
 add_action( 'plugins_loaded', array( $phpdoc_plugin, 'plugins_loaded' ) );
