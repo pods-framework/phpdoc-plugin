@@ -31,7 +31,7 @@ class Plugin {
 	 */
 	public function __construct() {
 		$this->file = PHPDOC_PLUGIN_FILE;
-		$this->dir  = dirname( PHPDOCPLUGIN_FILE );
+		$this->dir  = dirname( PHPDOC_PLUGIN_FILE );
 	}
 
 	/**
