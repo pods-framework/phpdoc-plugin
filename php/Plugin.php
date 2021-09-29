@@ -123,7 +123,7 @@ class Plugin {
 	 * @return string base file for the plugin.
 	 */
 	public static function get_plugin_file() {
-		return plugin_basename( PHPDOCPLUGIN_FILE );
+		return plugin_basename( PHPDOC_PLUGIN_FILE );
 	}
 
 	/**
