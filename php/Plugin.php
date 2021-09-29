@@ -2,7 +2,7 @@
 /**
  * Plugin Utility class.
  *
- * @package phpdocplugin
+ * @package Pods\phpDoc_Plugin
  */
 
 namespace Pods\phpDoc_Plugin;
