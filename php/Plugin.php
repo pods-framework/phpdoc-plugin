@@ -132,7 +132,7 @@ class Plugin {
 	 * @return float version for the plugin.
 	 */
 	public static function get_plugin_version() {
-		return PHPDOCPLUGIN_VERSION;
+		return PHPDOC_PLUGIN_VERSION;
 	}
 
 	/**
