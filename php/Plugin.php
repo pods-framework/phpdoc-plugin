@@ -45,6 +45,9 @@ class Plugin {
 
 		// Add taxonomies.
 		Taxonomies::create();
+
+		// Init Posts to Posts.
+		PostsToPosts::register_post_relationships();
 	}
 
 	/**
