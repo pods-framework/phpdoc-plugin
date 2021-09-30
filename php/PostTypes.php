@@ -30,21 +30,21 @@ class PostTypes {
 				'wp-parser-function',
 				array(
 					'has_archive'  => 'reference/functions',
-					'label'        => __( 'Functions', 'wporg' ),
+					'label'        => __( 'Functions', 'phpdoc-plugin' ),
 					'labels'       => array(
-						'name'               => __( 'Functions', 'wporg' ),
-						'singular_name'      => __( 'Function', 'wporg' ),
-						'all_items'          => __( 'Functions', 'wporg' ),
-						'new_item'           => __( 'New Function', 'wporg' ),
-						'add_new'            => __( 'Add New', 'wporg' ),
-						'add_new_item'       => __( 'Add New Function', 'wporg' ),
-						'edit_item'          => __( 'Edit Function', 'wporg' ),
-						'view_item'          => __( 'View Function', 'wporg' ),
-						'search_items'       => __( 'Search Functions', 'wporg' ),
-						'not_found'          => __( 'No Functions found', 'wporg' ),
-						'not_found_in_trash' => __( 'No Functions found in trash', 'wporg' ),
-						'parent_item_colon'  => __( 'Parent Function', 'wporg' ),
-						'menu_name'          => __( 'Functions', 'wporg' ),
+						'name'               => __( 'Functions', 'phpdoc-plugin' ),
+						'singular_name'      => __( 'Function', 'phpdoc-plugin' ),
+						'all_items'          => __( 'Functions', 'phpdoc-plugin' ),
+						'new_item'           => __( 'New Function', 'phpdoc-plugin' ),
+						'add_new'            => __( 'Add New', 'phpdoc-plugin' ),
+						'add_new_item'       => __( 'Add New Function', 'phpdoc-plugin' ),
+						'edit_item'          => __( 'Edit Function', 'phpdoc-plugin' ),
+						'view_item'          => __( 'View Function', 'phpdoc-plugin' ),
+						'search_items'       => __( 'Search Functions', 'phpdoc-plugin' ),
+						'not_found'          => __( 'No Functions found', 'phpdoc-plugin' ),
+						'not_found_in_trash' => __( 'No Functions found in trash', 'phpdoc-plugin' ),
+						'parent_item_colon'  => __( 'Parent Function', 'phpdoc-plugin' ),
+						'menu_name'          => __( 'Functions', 'phpdoc-plugin' ),
 					),
 					'menu_icon'    => 'dashicons-editor-code',
 					'public'       => true,
@@ -67,21 +67,21 @@ class PostTypes {
 				'wp-parser-class',
 				array(
 					'has_archive'  => 'reference/classes',
-					'label'        => __( 'Classes', 'wporg' ),
+					'label'        => __( 'Classes', 'phpdoc-plugin' ),
 					'labels'       => array(
-						'name'               => __( 'Classes', 'wporg' ),
-						'singular_name'      => __( 'Class', 'wporg' ),
-						'all_items'          => __( 'Classes', 'wporg' ),
-						'new_item'           => __( 'New Class', 'wporg' ),
-						'add_new'            => __( 'Add New', 'wporg' ),
-						'add_new_item'       => __( 'Add New Class', 'wporg' ),
-						'edit_item'          => __( 'Edit Class', 'wporg' ),
-						'view_item'          => __( 'View Class', 'wporg' ),
-						'search_items'       => __( 'Search Classes', 'wporg' ),
-						'not_found'          => __( 'No Classes found', 'wporg' ),
-						'not_found_in_trash' => __( 'No Classes found in trash', 'wporg' ),
-						'parent_item_colon'  => __( 'Parent Class', 'wporg' ),
-						'menu_name'          => __( 'Classes', 'wporg' ),
+						'name'               => __( 'Classes', 'phpdoc-plugin' ),
+						'singular_name'      => __( 'Class', 'phpdoc-plugin' ),
+						'all_items'          => __( 'Classes', 'phpdoc-plugin' ),
+						'new_item'           => __( 'New Class', 'phpdoc-plugin' ),
+						'add_new'            => __( 'Add New', 'phpdoc-plugin' ),
+						'add_new_item'       => __( 'Add New Class', 'phpdoc-plugin' ),
+						'edit_item'          => __( 'Edit Class', 'phpdoc-plugin' ),
+						'view_item'          => __( 'View Class', 'phpdoc-plugin' ),
+						'search_items'       => __( 'Search Classes', 'phpdoc-plugin' ),
+						'not_found'          => __( 'No Classes found', 'phpdoc-plugin' ),
+						'not_found_in_trash' => __( 'No Classes found in trash', 'phpdoc-plugin' ),
+						'parent_item_colon'  => __( 'Parent Class', 'phpdoc-plugin' ),
+						'menu_name'          => __( 'Classes', 'phpdoc-plugin' ),
 					),
 					'menu_icon'    => 'dashicons-editor-code',
 					'public'       => true,
@@ -101,21 +101,21 @@ class PostTypes {
 				'wp-parser-hook',
 				array(
 					'has_archive'  => 'reference/hooks',
-					'label'        => __( 'Hooks', 'wporg' ),
+					'label'        => __( 'Hooks', 'phpdoc-plugin' ),
 					'labels'       => array(
-						'name'               => __( 'Hooks', 'wporg' ),
-						'singular_name'      => __( 'Hook', 'wporg' ),
-						'all_items'          => __( 'Hooks', 'wporg' ),
-						'new_item'           => __( 'New Hook', 'wporg' ),
-						'add_new'            => __( 'Add New', 'wporg' ),
-						'add_new_item'       => __( 'Add New Hook', 'wporg' ),
-						'edit_item'          => __( 'Edit Hook', 'wporg' ),
-						'view_item'          => __( 'View Hook', 'wporg' ),
-						'search_items'       => __( 'Search Hooks', 'wporg' ),
-						'not_found'          => __( 'No Hooks found', 'wporg' ),
-						'not_found_in_trash' => __( 'No Hooks found in trash', 'wporg' ),
-						'parent_item_colon'  => __( 'Parent Hook', 'wporg' ),
-						'menu_name'          => __( 'Hooks', 'wporg' ),
+						'name'               => __( 'Hooks', 'phpdoc-plugin' ),
+						'singular_name'      => __( 'Hook', 'phpdoc-plugin' ),
+						'all_items'          => __( 'Hooks', 'phpdoc-plugin' ),
+						'new_item'           => __( 'New Hook', 'phpdoc-plugin' ),
+						'add_new'            => __( 'Add New', 'phpdoc-plugin' ),
+						'add_new_item'       => __( 'Add New Hook', 'phpdoc-plugin' ),
+						'edit_item'          => __( 'Edit Hook', 'phpdoc-plugin' ),
+						'view_item'          => __( 'View Hook', 'phpdoc-plugin' ),
+						'search_items'       => __( 'Search Hooks', 'phpdoc-plugin' ),
+						'not_found'          => __( 'No Hooks found', 'phpdoc-plugin' ),
+						'not_found_in_trash' => __( 'No Hooks found in trash', 'phpdoc-plugin' ),
+						'parent_item_colon'  => __( 'Parent Hook', 'phpdoc-plugin' ),
+						'menu_name'          => __( 'Hooks', 'phpdoc-plugin' ),
 					),
 					'menu_icon'    => 'dashicons-editor-code',
 					'public'       => true,
@@ -135,21 +135,21 @@ class PostTypes {
 				'wp-parser-method',
 				array(
 					'has_archive'  => 'reference/methods',
-					'label'        => __( 'Methods', 'wporg' ),
+					'label'        => __( 'Methods', 'phpdoc-plugin' ),
 					'labels'       => array(
-						'name'               => __( 'Methods', 'wporg' ),
-						'singular_name'      => __( 'Method', 'wporg' ),
-						'all_items'          => __( 'Methods', 'wporg' ),
-						'new_item'           => __( 'New Method', 'wporg' ),
-						'add_new'            => __( 'Add New', 'wporg' ),
-						'add_new_item'       => __( 'Add New Method', 'wporg' ),
-						'edit_item'          => __( 'Edit Method', 'wporg' ),
-						'view_item'          => __( 'View Method', 'wporg' ),
-						'search_items'       => __( 'Search Methods', 'wporg' ),
-						'not_found'          => __( 'No Methods found', 'wporg' ),
-						'not_found_in_trash' => __( 'No Methods found in trash', 'wporg' ),
-						'parent_item_colon'  => __( 'Parent Method', 'wporg' ),
-						'menu_name'          => __( 'Methods', 'wporg' ),
+						'name'               => __( 'Methods', 'phpdoc-plugin' ),
+						'singular_name'      => __( 'Method', 'phpdoc-plugin' ),
+						'all_items'          => __( 'Methods', 'phpdoc-plugin' ),
+						'new_item'           => __( 'New Method', 'phpdoc-plugin' ),
+						'add_new'            => __( 'Add New', 'phpdoc-plugin' ),
+						'add_new_item'       => __( 'Add New Method', 'phpdoc-plugin' ),
+						'edit_item'          => __( 'Edit Method', 'phpdoc-plugin' ),
+						'view_item'          => __( 'View Method', 'phpdoc-plugin' ),
+						'search_items'       => __( 'Search Methods', 'phpdoc-plugin' ),
+						'not_found'          => __( 'No Methods found', 'phpdoc-plugin' ),
+						'not_found_in_trash' => __( 'No Methods found in trash', 'phpdoc-plugin' ),
+						'parent_item_colon'  => __( 'Parent Method', 'phpdoc-plugin' ),
+						'menu_name'          => __( 'Methods', 'phpdoc-plugin' ),
 					),
 					'menu_icon'    => 'dashicons-editor-code',
 					'public'       => true,
@@ -163,6 +163,25 @@ class PostTypes {
 				)
 			);
 		}
+	}
 
+	/**
+	 * Return registered post types for plugin.
+	 *
+	 * @param bool $labels Whether to return just post type keys or also labels.
+	 */
+	public static function get_parsed_post_types( bool $labels = true ) {
+		$post_types = array(
+			'wp-parser-class'    => __( 'Classes', 'phpdoc-plugin' ),
+			'wp-parser-function' => __( 'Functions', 'phpdoc-plugin' ),
+			'wp-parser-hook'     => __( 'Hooks', 'phpdoc-plugin' ),
+			'wp-parser-method'   => __( 'Methods', 'phpdoc-plugin' ),
+		);
+
+		if ( ! $labels ) {
+			return array_keys( $post_types );
+		}
+
+		return $post_types;
 	}
 }
