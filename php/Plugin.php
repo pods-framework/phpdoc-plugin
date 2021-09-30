@@ -42,6 +42,9 @@ class Plugin {
 	public function init() {
 		// Create post types.
 		PostTypes::create();
+
+		// Add taxonomies.
+		Taxonomies::create();
 	}
 
 	/**
