@@ -64,6 +64,13 @@ class Plugin {
 	}
 
 	/**
+	 * Run when the plugin is activated.
+	 */
+	public static function register_activation_hook() {
+		RewriteRules::flush();
+	}
+
+	/**
 	 * Is WP debug mode enabled.
 	 *
 	 * @return boolean

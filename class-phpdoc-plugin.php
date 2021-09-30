@@ -41,5 +41,6 @@ class Bootstrap {
 }
 
 $phpdoc_plugin = new Bootstrap();
+register_activation_hook( __FILE__, array( '\Pods\phpDoc_Plugin\Plugin', 'register_activation_hook' ) );
 
 add_action( 'plugins_loaded', array( $phpdoc_plugin, 'plugins_loaded' ) );

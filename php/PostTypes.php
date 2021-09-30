@@ -59,9 +59,6 @@ class PostTypes {
 			);
 		}
 
-		add_rewrite_rule( 'reference/classes/page/([0-9]{1,})/?$', 'index.php?post_type=wp-parser-class&paged=$matches[1]', 'top' );
-		add_rewrite_rule( 'reference/classes/([^/]+)/([^/]+)/?$', 'index.php?post_type=wp-parser-method&name=$matches[1]-$matches[2]', 'top' );
-
 		if ( ! post_type_exists( 'wp-parser-class' ) ) {
 			register_post_type(
 				'wp-parser-class',
