@@ -40,7 +40,8 @@ class Plugin {
 	 * @see WP init action.
 	 */
 	public function init() {
-		// todo - init actions here.
+		// Create post types.
+		PostTypes::create();
 	}
 
 	/**
