@@ -51,6 +51,15 @@ class Plugin {
 	}
 
 	/**
+	 * Actions to run when all plugins have been loaded.
+	 *
+	 * @see WP plugins_loaded action.
+	 */
+	public function plugins_loaded() {
+		new Explanations();
+	}
+
+	/**
 	 * After a theme's functions.php file has been run.
 	 *
 	 * @see WP after_setup_theme action.

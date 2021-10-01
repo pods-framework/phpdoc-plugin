@@ -37,6 +37,9 @@ class Bootstrap {
 
 		// Init the plugin.
 		add_action( 'init', array( $plugin, 'init' ) );
+
+		// Plugins loaded actions.
+		$plugin->plugins_loaded();
 	}
 }
 
