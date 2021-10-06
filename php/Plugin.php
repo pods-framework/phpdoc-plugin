@@ -40,7 +40,43 @@ class Plugin {
 	 * @see WP init action.
 	 */
 	public function init() {
-		// todo - init actions here.
+		// Create post types.
+		PostTypes::create();
+
+		// Add taxonomies.
+		Taxonomies::create();
+
+		// Init Posts to Posts.
+		PostsToPosts::register_post_relationships();
+	}
+
+	/**
+	 * Actions to run when all plugins have been loaded.
+	 *
+	 * @see WP plugins_loaded action.
+	 */
+	public function plugins_loaded() {
+		new Explanations();
+	}
+
+	/**
+	 * After a theme's functions.php file has been run.
+	 *
+	 * @see WP after_setup_theme action.
+	 */
+	public function after_setup_theme() {
+		// Remove post types registered by theme.
+		global $explanations;
+		remove_action( 'init', array( 'DevHub_CLI', 'action_init_register_post_types' ) );
+		remove_action( 'init', array( 'DevHub_Registrations', 'do_init' ), 10 );
+		remove_action( 'init', array( $explanations, 'register_post_type' ), 0 );
+	}
+
+	/**
+	 * Run when the plugin is activated.
+	 */
+	public static function register_activation_hook() {
+		RewriteRules::flush();
 	}
 
 	/**

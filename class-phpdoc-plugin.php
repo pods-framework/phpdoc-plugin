@@ -32,11 +32,18 @@ class Bootstrap {
 	public function plugins_loaded() {
 		$plugin = new Plugin();
 
+		// Run any actions for theme init.
+		add_action( 'after_setup_theme', array( $plugin, 'after_setup_theme' ) );
+
 		// Init the plugin.
 		add_action( 'init', array( $plugin, 'init' ) );
+
+		// Plugins loaded actions.
+		$plugin->plugins_loaded();
 	}
 }
 
 $phpdoc_plugin = new Bootstrap();
+register_activation_hook( __FILE__, array( '\Pods\phpDoc_Plugin\Plugin', 'register_activation_hook' ) );
 
 add_action( 'plugins_loaded', array( $phpdoc_plugin, 'plugins_loaded' ) );
